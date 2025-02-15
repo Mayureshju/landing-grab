@@ -2,12 +2,12 @@
 
 import React, { useRef } from 'react';
 import { useFrame } from '@react-three/fiber';
-import { Mesh } from 'three';
+import { Mesh, Group } from 'three';
 import { DeliveryPerson } from './DeliveryPerson';
 
 const DeliveryBox: React.FC = () => {
-  const groupRef = useRef<Mesh>(null);
-  const boxRef = useRef<Mesh>(null);
+  const groupRef = useRef<Group>(null);
+    const boxRef = useRef<Mesh>(null);
   const tapeRef = useRef<Mesh>(null);
 
   useFrame((state) => {

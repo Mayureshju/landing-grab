@@ -5,7 +5,9 @@ import { OrbitControls, PerspectiveCamera, Sparkles, Environment } from '@react-
 import DeliveryBox from './DeliveryBox';
 import ggh from './belvedere_4k.hdr'
 
+//remove for production ggh = '/belvedere_4k.hdr' add in confif
 export function Scene() {
+  
   return (
     <div className="w-full h-full">
       <Canvas

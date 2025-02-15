@@ -10,7 +10,7 @@ const testimonials = [
     name: "Sarah Johnson",
     role: "Logistics Manager",
     company: "Global Express",
-    content: "SwiftCourier has transformed our delivery operations. The real-time tracking and route optimization have reduced our delivery times by 35%.",
+    content: "Grab has transformed our delivery operations. The real-time tracking and route optimization have reduced our delivery times by 35%.",
     image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80",
     rating: 5
   },
@@ -26,7 +26,7 @@ const testimonials = [
     name: "Emma Davis",
     role: "CEO",
     company: "Swift Deliveries",
-    content: "Customer satisfaction has increased dramatically since implementing SwiftCourier. The real-time tracking feature is a game-changer.",
+    content: "Customer satisfaction has increased dramatically since implementing Grab. The real-time tracking feature is a game-changer.",
     image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80",
     rating: 5
   },
@@ -92,7 +92,7 @@ export function Testimonials() {
             Trusted by Industry Leaders
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            See what our customers have to say about SwiftCourier
+            See what our customers have to say about Grab
           </p>
         </motion.div>
 

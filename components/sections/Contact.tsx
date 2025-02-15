@@ -57,7 +57,7 @@ export function Contact() {
         >
           <h2 className="text-4xl font-bold mb-4 gradient-text">Get in Touch</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Have questions about SwiftCourier? Our team is here to help you transform your delivery operations.
+            Have questions about Grab? Our team is here to help you transform your delivery operations.
           </p>
         </motion.div>
 
@@ -111,7 +111,7 @@ export function Contact() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-gray-900">Email Us</h3>
-                    <p className="text-gray-600">contact@swiftcourier.com</p>
+                    <p className="text-gray-600">contact@Grab.com</p>
                   </div>
                 </motion.div>
               </div>

@@ -28,7 +28,7 @@ export function Navbar() {
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-2">
             <Package2 className={`h-8 w-8 ${isScrolled ? 'text-primary' : 'text-white'}`} />
-            <span className="text-2xl font-bold">SwiftCourier</span>
+            <span className="text-2xl font-bold">Grab</span>
           </div>
           
           <div className="md:hidden">
